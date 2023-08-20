@@ -7,6 +7,7 @@ public class Main {
         calculator.showProducts();
         calculator.showScore(countPersons);
     }
+
     private static int getCountPersons() {
         int countPersons = 0;
 
@@ -45,6 +46,7 @@ public class Main {
 
         return scanner.next();
     }
+
     private static double getProductPrice() {
         double price = 0;
         while (price <= 0) {
